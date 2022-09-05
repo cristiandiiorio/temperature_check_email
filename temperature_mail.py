@@ -9,7 +9,7 @@ msg = MIMEMultipart()
 
 #make sure to modify these ones
 password = "your password" #if you're using gmail make sure to put your app token here, not your actual password
-msg['From'] = "sender's email address"
+msg['From'] = "sender email address"
 msg['To'] = "receiving email address"
 
 msg['Subject'] = "Your system's temperature is greater than 60°C"
@@ -19,7 +19,7 @@ server = smtplib.SMTP('smtp.gmail.com: 587')
 
 server.starttls()
   
-#Loads both sender's email address and password
+#Loads both sender email address and password
 server.login(msg['From'], password)
   
 #message is sent
