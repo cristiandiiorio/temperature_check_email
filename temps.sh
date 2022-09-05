@@ -14,6 +14,6 @@ echo $temp
 #critical temperature (60 degrees celsius by default)
 if [ "$temp" -gt "60" ]
 then #email is sent
-	python3 hmail.py
+	python3 temperature_mail.py
 
 fi
