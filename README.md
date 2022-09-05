@@ -5,4 +5,4 @@ The temperature check is done with bash while the email side of things is handle
 
 The temperature limit can be changed in line 15 of temps.sh .
 
-Make sure to swap the placeholders in temperature_mail.py (lines 11 and 12) with the sender email and receiver email
+Make sure to swap the placeholders in temperature_mail.py (lines 11 and 12) with the sender's and receiver's email addresses
