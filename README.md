@@ -7,4 +7,4 @@
 
 <h3><i> What do I need to change in order to make it work? </i></h3>
 
-<p> The temperature limit can be changed in temps.sh (line 15).   Make sure to swap the placeholders in temperature_mail.py (lines 11 and 12) with the sender's and receiver's email addresses. </p>
+<p> The temperature limit can be changed in <ins> temps.sh </ins>(line 15) .   Make sure to swap the placeholders in <ins>temperature_mail.py </ins>(lines 11 and 12) with the sender's and receiver's email addresses. </p>
