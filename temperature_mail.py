@@ -8,8 +8,8 @@ msg = MIMEMultipart()
 #message parameters (make sure to change the placeholders with your credentials)
 #if you're using gmail make sure to put your app token here, not your actual password
 password = "your password"    
-msg['From'] = "sender email address"
-msg['To'] = "receiving email address"
+msg['From'] = "sender's email address"
+msg['To'] = "receiver's email address"
 
 msg['Subject'] = "Your system's temperature is greater than 60°C"
 
