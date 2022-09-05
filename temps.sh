@@ -11,8 +11,11 @@ echo $(date)
 #echoes temperature
 echo $temp
 
-#critical temperature (60 degrees celsius by default)
-if [ "$temp" -gt "60" ]
+#temperature limit
+temp_limit=60
+
+#critical temperature check (60 degrees celsius by default)
+if [ "$temp" -gt "$temp_limit" ]
 then #email is sent
 	python3 temperature_mail.py
 
