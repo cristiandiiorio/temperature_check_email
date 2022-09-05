@@ -18,7 +18,7 @@ server = smtplib.SMTP('smtp.gmail.com: 587')
 
 server.starttls()
   
-#Loads both sender email address and password
+#loads both sender email address and password
 server.login(msg['From'], password)
   
 #message is sent
