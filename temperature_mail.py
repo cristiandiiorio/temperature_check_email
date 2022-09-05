@@ -5,10 +5,9 @@ from email.mime.text import MIMEText
 #message object instance is created
 msg = MIMEMultipart()
   
-#message parameters
-
-#make sure to modify these ones
-password = "your password" #if you're using gmail make sure to put your app token here, not your actual password
+#message parameters (make sure to change the placeholders with your credentials)
+#if you're using gmail make sure to put your app token here, not your actual password
+password = "your password"    
 msg['From'] = "sender email address"
 msg['To'] = "receiving email address"
 
