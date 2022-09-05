@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+#!/usr/bin/python3.9
 
 #gets the temperature, then cleans the output to make sure it's only made of numbers
 temp=$( vcgencmd measure_temp  | egrep -o '[0-9]*\.[0-9]*' )
